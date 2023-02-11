@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  text-align: center;
+}
+
+form, h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+form {
+  width: 30rem;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+input {
+  padding: .5rem 1rem;
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.button-group button, .button-group a {
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  background-color: #eee;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: .5rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr th, table tr td {
+  padding: .5rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
